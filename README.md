@@ -1,25 +1,25 @@
 ## A. "OpenCV 설치하기"
 
 
-### 1. 기존 버전 존재 확인
+#### 1. 기존 버전 존재 확인
 > ~ $ pkg-config --modversion opencv
   - 이 코드를 입력 후 'Package opencv was not found in the pkg-config search path.~~..'와 같은 메세지가 나타난다면 2.진행
   - 이 코드를 입력 후 윗줄과 같은 메세지가 출력되지 않고 버전이 출력된다면 1-1. 진행
 
 
-#### 1-1. 기존 버전 삭제
+##### 1-1. 기존 버전 삭제
 > $ sudo apt-get purge libopencv* python-opencv
 > $ sudo apt-get autoremove
 
 
 
-### 2. 패키지 업그레이드
+#### 2. 패키지 업그레이드
 > $ sudo apt-get update
 > $ sudo apt-get upgrade
 
 
 
-### 3. OpenCV 설치 시 필요한 패키지 설치
+#### 3. OpenCV 설치 시 필요한 패키지 설치
 > $ sudo apt-get install build-essential cmake
 
 > $ sudo apt-get install pkg-config
@@ -46,7 +46,7 @@
 
 
 
-### 4. OpenCV 설정하기
+#### 4. OpenCV 설정하기
 > ~$ mkdir opencv
 > ~$ cd opencv
 
@@ -90,21 +90,21 @@ _-- Generating done_
 
 
 
-### 6. 설치 확인
+#### 6. 설치 확인
 > ~/opencv/opencv-3.2.0/build$ pkg-config --modversion opencv
 - 실행 시, 설치한 버전(여기선 3.2.0)이 출력되면 설치 성공
 
 
 ## B. "Clib 설치"
 
-### 1. 기존 설치 확인
+#### 1. 기존 설치 확인
 > rpm -qa | grep gcc
 실행 시, rpm이 설치되어있지않다고 나올 경우,
 
-#### 1-1. Clib 설치
+##### 1-1. Clib 설치
 > sudo apt install rpm
 
-### 2. 설치 확인
+#### 2. 설치 확인
 example) 
 > vi hello.c
 
