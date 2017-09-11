@@ -93,6 +93,7 @@ _-- Generating done_
 ### 6. 설치 확인
 > ~/opencv/opencv-3.2.0/build$ pkg-config --modversion opencv
 - 실행 시, 설치한 버전(여기선 3.2.0)이 출력되면 설치 성공
+
 .
 .
 .
