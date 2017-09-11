@@ -94,3 +94,27 @@ _-- Generating done_
 > ~/opencv/opencv-3.2.0/build$ pkg-config --modversion opencv
 - 실행 시, 설치한 버전(여기선 3.2.0)이 출력되면 설치 성공
 
+
+## B. "Clib 설치"
+
+### 1. 기존 설치 확인
+> rpm -qa | grep gcc
+실행 시, rpm이 설치되어있지않다고 나올 경우,
+#### 1-1. Clib 설치
+> sudo apt install rpm
+
+### 2. 설치 확인
+example) 
+> vi hello.c
+
+'#include <stdio.h>'
+
+int main()
+{
+    printf("hello world!!");
+    return 0;
+}
+
+> gcc -v -o filename filename.c
+>./hello
+실행 시, hello world!!가 나오면 설치 
