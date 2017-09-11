@@ -1,4 +1,4 @@
-# **"OpenCV 설치하기"**
+# **A. "OpenCV 설치하기"**
 
 
 **1. 기존 버전 존재 확인**
@@ -63,7 +63,7 @@
 
 
 
-**5. 컴파일**
+**5. Compile**
 > ~/opencv$ cd opencv-3.2.0/
 
 > ~/opencv/opencv-3.2.0$ mkdir build
