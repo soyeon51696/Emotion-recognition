@@ -123,4 +123,5 @@ int main()
 > gcc -v -o filename filename.c
 >./hello
 
-실행 시, hello world!!가 나오면 설치
+실행 시, hello world!!가 나오면 설치 완료
+
