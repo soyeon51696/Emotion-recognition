@@ -112,8 +112,8 @@ _-- Generating done_
 
 설치 후,
 > $ python
->>> import dlib
->>> import cv2
+'>>> import dlib'
+'>>> import cv2'
 
 오류 없으면 성공!
 
