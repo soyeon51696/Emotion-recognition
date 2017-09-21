@@ -9,12 +9,14 @@
 
 ##### 1-1. 기존 버전 삭제
 > $ sudo apt-get purge libopencv* python-opencv
+
 > $ sudo apt-get autoremove
 
 
 
 #### 2. 패키지 업그레이드
 > $ sudo apt-get update
+
 > $ sudo apt-get upgrade
 
 
@@ -48,6 +50,7 @@
 
 #### 4. OpenCV 설정하기
 > ~$ mkdir opencv
+
 > ~$ cd opencv
 
 > ~/opencv$ wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.2.0.zip
@@ -81,9 +84,13 @@ _-- Generating done_
 
 > ~/opencv/opencv-3.2.0$ cat /proc/cpuinfo | grep processor | wc -l
 로 CPU갯수 확인
+
+
 > ~/opencv/opencv-3.2.0$ time make -j4(글쓴이 CPU갯수는 4개)
 
+
 > ~/opencv/opencv-3.2.0/build$ sudo make install
+
 
 > ~/opencv/opencv-3.2.0/build$ cat /etc/ld.so.conf.d/*
 실행 시, _/usr/lib/x86_64-linux-gnu/libfakeroot_ 출력되면 성공
