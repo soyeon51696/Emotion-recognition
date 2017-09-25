@@ -138,34 +138,10 @@ _-- Generating done_
 
 
 
-## C. "Clib 설치"
+## C. 넘파이설치
+# 넘파이는_외부라이브러리로_파이썬에_내장되어_있지않은_계산을_할때에_쓰임
+> $ sudo apt-get install python3-pip
 
-#### 1. 기존 설치 확인
-> rpm -qa | grep gcc
-실행 시, rpm이 설치되어있지않다고 나올 경우,
+> $ sudo pip3 install --upgrade pip
 
-##### 1-1. Clib 설치
-> sudo apt install rpm
-
-#### 2. 설치 확인
-example) 
-> vi hello.c
-
-'#include <stdio.h>
-
-int main()
-
-{
-
-    printf("hello world!!");
-
-    return 0;
-
-}'
-
-> gcc -v -o filename filename.c
-
->./hello
-
-실행 시, hello world!!가 나오면 설치 완료
-
+> $ sudo pip3 install numpy
