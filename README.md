@@ -139,7 +139,7 @@ _-- Generating done_
 
 
 ## C. 넘파이설치
-# 넘파이는_외부라이브러리로_파이썬에_내장되어_있지않은_계산을_할때에_쓰임
+#### 넘파이는 외부라이브러리로파이썬에 내장되어 있지 않은 계산을 할때에 쓰임
 > $ sudo apt-get install python3-pip
 
 > $ sudo pip3 install --upgrade pip
