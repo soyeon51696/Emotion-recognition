@@ -145,3 +145,8 @@ _-- Generating done_
 > $ sudo pip3 install --upgrade pip
 
 > $ sudo pip3 install numpy
+
+
+
+## D. xml 파일 경로
+https://github.com/opencv-java/face-detection/tree/master/resources/haarcascades
