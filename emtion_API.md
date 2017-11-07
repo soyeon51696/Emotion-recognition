@@ -1,5 +1,17 @@
+# <1>
+Get your free Subscription key [here](https://azure.microsoft.com/en-us/try/cognitive-services/)
+
+Click Emotion API's [Get API key]
+
+Check agree & accept buttom and select country [Korea]
+
+login using your preferred account
+
+so you give the your APIs
+
+
 ########### Python 3.2 #############
-import http.client, urllib.request, urllib.parse, urllib.error, base64, sys
+<pre> <code> import http.client, urllib.request, urllib.parse, urllib.error, base64, sys
 
 headers = {
     # Request headers. Replace the placeholder key below with your subscription key.
@@ -24,5 +36,5 @@ try:
     print(data)
     conn.close()
 except Exception as e:
-    print(e.args)
+    print(e.args) /code//pre/
 ####################################
