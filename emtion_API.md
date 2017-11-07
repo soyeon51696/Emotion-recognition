@@ -7,7 +7,7 @@ Check agree & accept buttom and select country [Korea]
 
 login using your preferred account
 
-so you give the your APIs keys
+so you assign the your APIs keys
 
 
 # <2> Write the code
