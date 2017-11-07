@@ -9,12 +9,12 @@ login using your preferred account
 
 so you assign the your APIs keys
 
-
+---
 # <2> Write the code
 
 Make a python file
-
-<pre> <code>########### Python 3.2 #############
+```python
+########### Python 3.2 #############
 import http.client, urllib.request, urllib.parse, urllib.error, base64, sys
 
 headers = {
@@ -40,8 +40,9 @@ try:
     print(data)
     conn.close()
 except Exception as e:
-    print(e.args) /code//pre/
+    print(e.args)
 ####################################
+```
 
 
 source the [here](https://docs.microsoft.com/en-us/azure/cognitive-services/emotion/quickstarts/python)
